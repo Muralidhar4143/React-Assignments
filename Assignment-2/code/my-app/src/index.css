@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: darkgrey;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 250px;
+  overflow-wrap: break-word;
+  border: 2px solid #0E6C2E;
+  padding: 10px 0px;
+  background-color: rgb(241, 230, 117);
+  display: block;
+  position: absolute;
+  right: 45%;
+  margin-top: 5em;
+  border-radius: 1em;
+}
+.employee_Img {
+  width: calc(100% - 50px);
+  margin-left: 25px;
+  margin-top: 5px;
+  border-radius: 0.5em;
+}
+.employee_Name{
+  font-size: 24px;
+  color: #5F5FEA;
+  font-weight: 700;
+  margin-left: 25px;
+}
+.employeeDet_Wrapper{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.employee_Detail_Label{
+  color: #02AC35;
+  font-size: 12px;
+  font-weight: 700;
 }

@@ -1,0 +1,21 @@
+.header-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+.logo{
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+}
+
+.camera-logo{
+    width: 4%;
+    height: auto;
+    margin-left: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+} 
